@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Auraine_Crud::manager" title="Products" module="Auraine_Crud" sortOrder="30" resource="Auraine_Crud::manager" />
+        <add id="Auraine_Crud::add_row" title="Products" module="Auraine_Crud" sortOrder="20" parent="Auraine_Crud::manager" action="grid/grid" resource="Auraine_Crud::add_row"/>
+    </menu>
+</config>

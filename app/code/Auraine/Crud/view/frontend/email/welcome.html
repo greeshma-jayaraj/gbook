@@ -1,0 +1,11 @@
+<!--@subject Welcome to M2 Training Session @-->
+
+{{template config_path="design/email/header_template"}}
+
+<!-- you need to put your email body contet here -->
+<p>hello world</p>
+<h2> Hello,  {{var customer_name}} </h2>
+<p>{{var message}}</p>
+
+{{var store.getFrontendName()}}
+{{template config_path="design/email/footer_template"}}
