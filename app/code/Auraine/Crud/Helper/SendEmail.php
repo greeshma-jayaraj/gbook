@@ -69,7 +69,7 @@ class SendEmail extends AbstractHelper
         try {
             $transport->sendMessage();		
         } catch (\Exception $exception) {
-            // Exception log
+            // Exception loguybuyhyuhyuh
         }
         $this->_inlineTranslation->resume();
 
